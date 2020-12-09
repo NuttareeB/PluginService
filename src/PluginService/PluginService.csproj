@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net471</TargetFrameworks>
+    <PackageIconUrl>https://axia.life/favicon.ico</PackageIconUrl>
+    <PackageProjectUrl>https://axialife.visualstudio.com/AxiaDigitalInsurance/_git/PluginService</PackageProjectUrl>
+    <RepositoryUrl>https://axialife.visualstudio.com/AxiaDigitalInsurance/_git/PluginService</RepositoryUrl>
+    <PackageLicenseUrl>http://axia.life/license</PackageLicenseUrl>
+    <Copyright>Copyright 2018(c) Axia Corporation (Thailand), Limited. All rights reserved.</Copyright>
+    <Authors>Axia Corporation (Thailand) Limited</Authors>
+    <Company>Axia Corporation (Thailand) Limited</Company>
+    <PackageTags>common library</PackageTags>
+    <AssemblyVersion>0.0.4</AssemblyVersion>
+    <FileVersion>0.0.4.0</FileVersion>
+    <PackageVersion>0.0.4.0</PackageVersion>
+    <Version>0.0.4.0</Version>
+    <Product>AxiaDigitalInsurance</Product>
+    <PackageId>PluginService</PackageId>
+    <PackageReleaseNotes></PackageReleaseNotes>  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Common" Version="0.0.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+</Project>
